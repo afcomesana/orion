@@ -42,7 +42,7 @@ const starCoord = [
 
 let randomStars = [],
     i = 0;
-while (i < 30) {
+while (i < 50) {
     randomStars.push({
         x: Math.random()*window.innerWidth,
         y: Math.random()*window.innerHeight
@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
             .attr("r", 1)
             .attr("class", "sky-star")
             .style("fill", "#FFFFFF")
-            .style("opacity", .7);
+            .style("opacity", .3);
     })
 });
 
