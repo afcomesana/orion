@@ -1,0 +1,66 @@
+html{
+    font-size: 62.5%; 
+    /** Reset para REMS - 62.5% = 10px de 16px, 
+    entonces, a partir de ahora, 2 rem = 20 px **/
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+:root{
+    --background: #05002e;
+    --title-font: 'Michroma', sans-serif;
+    --main-font: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: var(--background);
+    font-family: var(--main-font);
+}
+
+h1 {
+    color: white;
+    
+}
+
+h2 {
+    color: white;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.title {
+    font-size: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: var(--title-font);
+}
+
+.subtitle {
+    opacity: 0;
+    text-transform: italic;
+}
+
+.welcome {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sky-container {
+    width: 100%;
+    height: 100%;
+}
+
+.orion {
+    margin: 3rem auto 1rem auto;
+    position: relative;
+    width: 40%;
+    transform: rotate(-30deg);
+}
+
+#f6dc6f51-58d1-4328-a543-5a2c5176acea {
+    position: relative;
+}
